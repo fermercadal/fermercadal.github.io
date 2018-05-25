@@ -40,5 +40,23 @@ header h2 strong {
 }
 
 .profile article h3 {
+  font-size: 0.8rem;
   font-weight: 500;
+}
+
+.profile article p {
+  color: #ababba;
+}
+
+.profile article p strong {
+  color: #f9f9fa;
+  font-weight: 300;
+}
+
+.me {
+  margin-bottom: 20px;
+}
+
+.me img {
+  border-radius: 80%;
 }
