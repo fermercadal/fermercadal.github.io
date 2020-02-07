@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'MuseoSans-300';
+    src: url('MuseoSans-300.eot');
+    src: url('MuseoSans-300.eot?#iefix') format('embedded-opentype'),
+        url('MuseoSans-300.woff2') format('woff2'),
+        url('MuseoSans-300.woff') format('woff'),
+        url('MuseoSans-300.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.titleText p,
+.titleText_ref p,
+.titleText_asset p,
+.titleText_demo p {
+    font-size: 13pt;
+    line-height: 26px;
+    color: #3d4456;
+    font-family: 'MuseoSans-300', helvetica, arial, sans-serif;
+    font-weight: 300;
+}
+
+span.resizeToFit {
+    width: 1024px !important;
+    display: block;
+    left: -280px;
+    position: absolute;
+}
