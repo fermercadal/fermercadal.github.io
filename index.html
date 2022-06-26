@@ -1,234 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Developer's website</title>
+    <meta
+      name="description"
+      content="Fernando Mercadal is a self taught Front End Developer from Argentina."
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Developer's website</title>
-  <meta name="description" content="Fernando Mercadal is a self taught Front End Developer from Argentina.">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./style.css">
-</head>
-
-<body>
-  <header>
-    <h1>Developer's website.</h1>
-  </header>
-  <main>
-    <section itemscope itemtype="http://schema.org/Person">
-      <h2>Hello World,</h2>
-      <p>
-        My name is <strong itemprop="name">Fernando Mercadal.</strong> 
-        I'm a <em itemprop="jobTitle">self taught Web Developer,
-        mostly focused on frontend technologies.</em> 
-        My main interests are 
-        <span itemprop="knowsAbout">Web Accessibility and User Experience</span>
-      </p>
-
-      <div>
-        <h3>Strong expertice</h3>
-        <ul itemprop="knowsAbout">
-          <li>User Driven Development.</li>
-          <li>HTML5, Semantic Markup, ARIA, Schema Microdata, JSX, HTL, CSHTML, Twig.</li>
-          <li>CSS3, SASS, LESS, Bootstrap, Material, CSS-in-JS, Styled Components.</li>
-          <li>Javascript, jQuery, Angular, Vue, React, Gatsby, Next.</li>
-          <li>Wordpress, Drupal, AEM, Sitecore.</li>
-          <li>Star Wars.</li>
-        </ul>
-      </div>
-
-      <div>
-        <h3>Basic knowledge</h3>
-        <ul itemprop="knowsAbout">
-          <li>Node + Express + MongoDB</li>
-          <li>PHP + MySQL</li>
-          <li>C# .Net</li>
-        </ul>
-      </div>
-    </section>
-
-    <section>
-      <h2>React projects</h2>
-      <ul>
-        <li itemscope itemtype="http://schema.org/Project">
-          <h3 itemprop="name">
-            React Calculator
-          </h3>
-
-          <p itemprop="description">
-            JS Calculator built using React. Fourth project for the FreeCodeCamp Front End Libraries certification.
-          </p>
-
-          <a itemprop="url" href="https://fermercadal.github.io/react-calculator">
-            URL
-          </a> | 
-
-          <a itemprop="identifier" href="https://github.com/fermercadal/react-calculator">
-            Repository
-          </a>
-        </li>
-
-        <li itemscope itemtype="http://schema.org/Project">
-          <h3 itemprop="name">
-            Pomodoro Clock
-          </h3>
-
-          <p itemprop="description">
-            JS Pomodoro Clock built using React. Fifth project for the FreeCodeCamp Front End Libraries certification.
-          </p>
-
-          <a itemprop="url" href="https://fermercadal.github.io/pomodoro-clock">
-            URL
-          </a> | 
-
-          <a itemprop="identifier" href="https://github.com/fermercadal/pomodoro-clock">
-            Repository
-          </a>
-        </li>
-
-        <li itemscope itemtype="http://schema.org/Project">
-          <h3 itemprop="name">
-            React MPC - Drum machine
-          </h3>
-
-          <p itemprop="description">
-            Drum machine based on Akai MPC built using React. Third project for the FreeCodeCamp "Front End Libraries" certification.
-          </p>
-
-          <a itemprop="url" href="http://fermercadal.github.io/react-mpc">
-            URL
-          </a> | 
-
-          <a itemprop="identifier" href="https://github.com/fermercadal/react-mpc">
-            Repository
-          </a>
-        </li>
-
-        <li itemscope itemtype="http://schema.org/Project">
-          <h3 itemprop="name">
-            Markdown preview
-          </h3>
-
-          <p itemprop="description">
-            Markdown Previewer built using React. Second project for the FreeCodeCamp "Front End Libraries" certification.
-          </p>
-
-          <a itemprop="url" href="http://fermercadal.github.io/markdown-preview">
-            URL
-          </a> | 
-
-          <a itemprop="identifier" href="https://github.com/fermercadal/markdown-preview">
-            Repository
-          </a>
-        </li>
-
-        <li itemscope itemtype="http://schema.org/Project">
-          <h3 itemprop="name">
-            Star Wars Quotes
-          </h3>
-
-          <p itemprop="description">
-            Random Star Wars quotes generator built using React. First project for the FreeCodeCamp "Front End Libraries" certification.
-          </p>
-
-          <a itemprop="url" href="http://fermercadal.github.io/starwars-quotes">
-            URL
-          </a> | 
-
-          <a itemprop="identifier" href="https://github.com/fermercadal/starwars-quotes">
-            Repository
-          </a>
-        </li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Node + Express + MongoDB projects</h2>
-      <ul>
-        <li itemscope itemtype="http://schema.org/Project">
-          <h3 itemprop="name">
-            Timestamp Microservice
-          </h3>
-
-          <a itemprop="url" href="https://carnelian-turquoise-ziconium.glitch.me">
-            URL
-          </a> | 
-
-          <a itemprop="identifier" href="https://github.com/fermercadal/fcc-apis-and-microservices-project1">
-            Repository
-          </a>
-        </li>
-        <li itemscope itemtype="http://schema.org/Project">
-          <h3 itemprop="name">
-            Request Header Parser Microservice
-          </h3>
-          
-          <a itemprop="url" href="https://illustrious-palladium.glitch.me">
-            URL
-          </a> | 
-
-          <a itemprop="identifier" href="https://github.com/fermercadal/fcc-apis-and-microservices-project2">
-            Repository
-          </a>
-        </li>
-        <li itemscope itemtype="http://schema.org/Project">
-          <h3 itemprop="name">
-            URL Shortener Microservice
-          </h3>
-
-          <a itemprop="url" href="https://leather-tinted-rumba.glitch.me">
-            URL
-          </a> | 
-
-          <a itemprop="identifier" href="https://github.com/fermercadal/fcc-apis-and-microservices-project3">
-            Repository
-          </a>
-        </li>
-        <li itemscope itemtype="http://schema.org/Project">
-          <h3 itemprop="name">
-            Exercise tracker
-          </h3>
-
-          <a itemprop="url" href="https://prickly-sphenoid-albatross.glitch.me">
-            URL
-          </a> | 
-
-          <a itemprop="identifier" href="https://github.com/fermercadal/fcc-apis-and-microservices-project4">
-            Repository
-          </a>
-        </li>
-        <li itemscope itemtype="http://schema.org/Project">
-          <h3 itemprop="name">
-            File Metadata Microservice
-          </h3>
-
-          <p itemprop="description">
-            description
-          </p>
-
-          <a itemprop="url" href="https://typical-useful-rib.glitch.me">
-            URL
-          </a> | 
-
-          <a itemprop="identifier" href="https://github.com/fermercadal/fcc-apis-and-microservices-project5">
-            Repository
-          </a>
-        </li>
-      </ul>
-    </section>
-  </main>
-  <footer>
-    <small>
-      <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
-        <img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" />
-      </a><br/>
-      This work is licensed under a 
-      <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
-        Creative Commons Attribution-ShareAlike 4.0 International License
-      </a>.
-    </small>
-  </footer>
-</body>
-
+  <body>
+    <header>
+      <h1>Developer's website.</h1>
+    </header>
+    <main>
+      <section itemscope itemtype="http://schema.org/Person">
+        <p>
+          My name is <strong itemprop="name">Fernando Mercadal.</strong> I'm a
+          <em itemprop="jobTitle"
+            >self taught Web Developer, mostly focused on frontend
+            technologies.</em
+          >
+          My main interests are
+          <span itemprop="knowsAbout"
+            >Web Accessibility and User Experience</span
+          >
+        </p>
+      </section>
+    </main>
+  </body>
 </html>
